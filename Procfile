@@ -1,1 +1,1 @@
-web: sh -c 'yarn build && yarn start'
+web: yarn start
