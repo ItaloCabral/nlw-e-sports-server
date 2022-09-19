@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "./src/server.ts",
   "scripts": {
-    "start": "node dist/server.js",
-    "postinstall": "npm i typescript && tsc",
+    "start": "npm i typescript && tsc && node dist/server.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\"",
     "build": "tsc"
   },
